@@ -16,6 +16,7 @@ Output Json:
 Case A:
 
 product {
-name : "Name of product"
-ExpiryDate:"Date mm/dd/yyyy"
+name : "Name of product",
+Expired : "True/False",
+ExpiredTime: "How many days remain for expiry"
 }
