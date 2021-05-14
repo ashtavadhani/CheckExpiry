@@ -1,0 +1,13 @@
+Install Postman tool
+Use following APIs
+
+1] When direct expiry date is not available and calculated on manufacturing date and expired time
+Post : http://localhost:8080/calculateExpiryWithoutExpDate
+Body param: manufactureDate : any date (02/14/2021)
+expiresInDays: Any Int (30)
+
+
+
+2] When Direct expired date is available
+Post http://localhost:8080/calculateExpiry
+Body Param: expiryDate :06/14/2021
