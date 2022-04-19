@@ -39,7 +39,7 @@ public class CheckExpiryController {
 	      SpringApplication.run(CheckExpiryController.class, args);
 	   }
 	
-	 @RequestMapping(value = {"/calculateExpiryWithoutExpDate"},method = RequestMethod.POST)
+	 @RequestMapping(value = {"/calculateExpiryWithoutExpDate1"},method = RequestMethod.POST)
 	   @ResponseBody 
 	   ResponseEntity<ProductExpiry> checkExpiryWithoutExpDate(@RequestParam("manufactureDate") Date manufDate,@RequestParam("expiresInDays") int expiresInDays) throws ParseException {
 			ProductExpiry productExpiry = new ProductExpiry();
